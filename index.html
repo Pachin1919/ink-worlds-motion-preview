@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="A two-layer interactive painting and motion preview with placeholder content.">
+  <link rel="icon" href="data:,">
+  <title>Ink Worlds — Motion Preview</title>
+  <link rel="preload" href="./assets/fonts/barlow-condensed-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./scene.js?v=3"></script>
+</head>
+<body>
+  <a class="skip" href="#controls">Skip to scene controls</a>
+  <main id="top">
+    <section class="stage" aria-labelledby="name">
+      <div class="frame" id="frame" tabindex="0" aria-label="Interactive painting. Move the pointer, drag on touch, or use arrow keys to reveal the second layer.">
+        <div class="art fallback-outer" id="art">
+          <img id="inner" src="./assets/inner-world.png" alt="Sunlit variant of the same landscape">
+          <img id="outer" src="./assets/outer-world.png" alt="Dark floating landscape" fetchpriority="high">
+          <canvas id="world" aria-hidden="true"></canvas>
+          <button class="retry" id="retry" type="button" hidden>Retry artwork</button>
+        </div>
+        <header><a class="brand" href="#top" aria-label="Back to the top">XX</a><div class="header-meta"><span>Motion preview</span><button id="language" type="button" disabled aria-label="English-only preview">EN</button></div></header>
+        <div class="identity"><h1 id="name">XX</h1><p>XX</p></div>
+        <p class="hint" id="hint">Move to uncover the image beneath</p>
+      </div>
+    </section>
+    <section class="after" aria-label="About this motion study"><p>One landscape.<br>Two states of light.</p><span>Interactive two-layer study</span></section>
+  </main>
+  <nav class="controls" id="controls" aria-label="Scene controls">
+    <button data-mode="outer" type="button" aria-pressed="false">Dark</button>
+    <button data-mode="interactive" type="button" aria-pressed="true" disabled>Reveal</button>
+    <button data-mode="inner" type="button" aria-pressed="false">Light</button>
+    <button id="pause" type="button" aria-pressed="false">Pause</button>
+  </nav>
+</body>
+</html>
