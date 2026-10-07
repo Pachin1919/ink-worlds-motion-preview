@@ -1,0 +1,152 @@
+{
+  "key": "ink",
+  "matrix": [
+    {
+      "width": 1440,
+      "route": "",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Ink Worlds — Digital Exhibition",
+        "h1": "INK WORLDS",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "水墨世界",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 1440,
+      "route": "works/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Works — Ink Worlds",
+        "h1": "One work, observed three ways.",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "一件作品，三种观看方式。",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 1440,
+      "route": "works/two-worlds/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Two Worlds — Ink Worlds",
+        "h1": "Two Worlds",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "双重世界",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 1440,
+      "route": "about/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "About — Ink Worlds",
+        "h1": "Interaction as a way of looking.",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "将互动作为一种观看方式。",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 390,
+      "route": "",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Ink Worlds — Digital Exhibition",
+        "h1": "INK WORLDS",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "水墨世界",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 390,
+      "route": "works/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Works — Ink Worlds",
+        "h1": "One work, observed three ways.",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "一件作品，三种观看方式。",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 390,
+      "route": "works/two-worlds/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "Two Worlds — Ink Worlds",
+        "h1": "Two Worlds",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "双重世界",
+        "overflow": 0
+      }
+    },
+    {
+      "width": 390,
+      "route": "about/",
+      "status": 200,
+      "en": {
+        "lang": "en",
+        "title": "About — Ink Worlds",
+        "h1": "Interaction as a way of looking.",
+        "overflow": 0,
+        "broken": []
+      },
+      "zh": {
+        "lang": "zh-CN",
+        "h1": "将互动作为一种观看方式。",
+        "overflow": 0
+      }
+    }
+  ],
+  "interaction": {
+    "canvas": {
+      "width": 1440,
+      "height": 900
+    },
+    "paused": 1,
+    "lightHidesOuter": 1,
+    "maskAlpha": 0
+  },
+  "errors": [],
+  "bad": []
+}
