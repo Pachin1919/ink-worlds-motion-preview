@@ -1,19 +1,24 @@
-# Ink Worlds — Motion Preview
+# Ink Worlds
 
-A standalone, static preview of a two-layer interactive painting. [View the live demo](https://pachin1919.github.io/ink-worlds-motion-preview/).
+[Live demo](https://pachin1919.github.io/ink-worlds-motion-preview/)
 
-![Ink Worlds with a local light reveal](preview/hero-desktop.png)
+![Desktop preview](assets/preview.png)
 
-The darker painting sits above an aligned lighter version. Moving the pointer or dragging on touch temporarily erases the upper layer's mask to reveal the image beneath. Use **Dark** and **Light** to inspect each original image, **Reveal** to return to the interaction, and **Pause** to stop mask decay. Keyboard users can focus the painting and use the arrow keys. Reduced-motion mode shows the still layers instead.
+A complete standalone bilingual visual frontend, expanded from the original demo with Lovable and adapted for static GitHub Pages hosting.
 
-This public preview uses the study title in place of personal details. The English-only language control is retained as an interface placeholder; it does not switch languages yet.
+## Pages
 
-Open `index.html` from a local web server, for example:
+- /
+- /works
+- /works/two-worlds
+- /about
 
-```powershell
-python -m http.server 4328 --bind 127.0.0.1 --directory .
-```
+## Local development
 
-Then visit `http://127.0.0.1:4328/`. The animation pauses when the page is hidden or scrolled out of view. If canvas rendering or an image fails, the complete darker painting remains visible.
+Run npm.cmd install, then npm.cmd run dev.
 
-This preview requires no build step, backend, external assets, or third-party JavaScript. Font license files are included in `assets/fonts/`. The landscape artwork remains project-specific and is not offered for reuse.
+## Build
+
+Run npm.cmd run build.
+
+[Deployment notes](docs/GITHUB-PAGES.md). Original artwork remains project-specific and is not licensed for general reuse; font OFL notices are included. Repository history preserves the earlier standalone demo.
