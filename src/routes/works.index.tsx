@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { ArtworkFigure } from "@/components/ink/artwork-figure";
 import { SiteFooter, SiteHeader } from "@/components/ink/site-shell";
 import { useLanguage } from "@/components/ink/language-provider";
+import { MineralInterlude, StudioWall } from "@/components/ink/studio-chapters";
 
 export const Route = createFileRoute("/works/")({
   head: () => ({ meta: [
@@ -23,5 +24,6 @@ function WorksPage() {
       <article><ArtworkFigure state="light" /><p className="eyebrow">{t.works.study}</p><h2>{t.works.lightTitle}</h2><p>{t.works.lightBody}</p></article>
     </section>
     <p className="catalogue-note">{t.works.footer}</p>
+    <StudioWall catalogue /><MineralInterlude />
   </main><SiteFooter /></div>;
 }

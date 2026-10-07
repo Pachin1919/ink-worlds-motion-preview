@@ -6,7 +6,7 @@ export function ArtworkFigure({ state, caption, className = "" }: { state: "dark
   const light = state === "light";
   return (
     <figure className={`artwork-figure ${className}`}>
-      <img src={light ? asset("/assets/inner-world.png") : asset("/assets/outer-world.png")} alt={light ? t.innerAlt : t.outerAlt} />
+      <img src={light ? asset("assets/inner-world.png") : asset("assets/outer-world.png")} width={1672} height={941} loading="lazy" decoding="async" alt={light ? t.innerAlt : t.outerAlt} />
       {caption && <figcaption>{caption}</figcaption>}
     </figure>
   );

@@ -4,6 +4,7 @@ import { ArtworkFigure } from "@/components/ink/artwork-figure";
 import { InteractiveWorld } from "@/components/ink/interactive-world";
 import { SiteFooter, SiteHeader } from "@/components/ink/site-shell";
 import { useLanguage } from "@/components/ink/language-provider";
+import { CloseReading, MineralInterlude, StudioWall } from "@/components/ink/studio-chapters";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -19,9 +20,9 @@ function Index() {
     <div id="top" className="home-page"><section className="home-hero" aria-labelledby="home-title"><InteractiveWorld /><SiteHeader overlay /><div className="hero-identity"><p>{t.maker}</p><h1 id="home-title">{t.home.title}</h1><span>{t.home.subtitle}</span></div><div className="hero-hint"><span>{t.home.hint}</span><ArrowDown aria-hidden="true" /></div></section>
       <main id="content" className="home-narrative">
         <section className="statement-section"><p className="eyebrow">{t.home.statementKicker}</p><div><h2>{t.home.statementTitle}</h2><p>{t.home.statementBody}</p></div></section>
-        <section className="comparison-section"><h2>{t.home.comparisonTitle}</h2><div className="comparison-grid"><ArtworkFigure state="dark" caption={t.home.darkCaption} /><ArtworkFigure state="light" caption={t.home.lightCaption} /></div></section>
-        <section className="entry-section"><ArtworkFigure state="dark" /><div><p className="eyebrow">{t.home.entryKicker}</p><h2>{t.home.entryTitle}</h2><p>{t.home.entryBody}</p><Link to="/works/two-worlds" className="text-link">{t.home.enter}<ArrowUpRight aria-hidden="true" /></Link></div></section>
-        <section className="process-fragment"><p className="eyebrow">{t.home.processKicker}</p><div><h2>{t.home.processTitle}</h2><p>{t.home.processBody}</p></div></section>
+        <StudioWall /><MineralInterlude />
+        <section className="original-comparison"><header><p className="eyebrow">{t.home.entryKicker} · {t.home.entryTitle}</p><h2>{t.home.comparisonTitle}</h2><Link to="/works/two-worlds" className="text-link">{t.home.enter}<ArrowUpRight aria-hidden="true" /></Link></header><div className="comparison-grid"><ArtworkFigure state="dark" caption={t.home.darkCaption} /><ArtworkFigure state="light" caption={t.home.lightCaption} /></div></section>
+        <CloseReading />
         <section className="home-credits"><p>{t.home.credits}</p></section>
       </main><SiteFooter /></div>
   );

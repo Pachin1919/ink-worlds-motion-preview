@@ -4,6 +4,7 @@ import { ArtworkFigure } from "@/components/ink/artwork-figure";
 import { InteractiveWorld } from "@/components/ink/interactive-world";
 import { SiteFooter, SiteHeader } from "@/components/ink/site-shell";
 import { useLanguage } from "@/components/ink/language-provider";
+import { CloseReading } from "@/components/ink/studio-chapters";
 
 export const Route = createFileRoute("/works/two-worlds")({
   head: () => ({ meta: [
@@ -20,6 +21,7 @@ function TwoWorldsPage() {
     <section className="viewing-section"><div className="section-heading"><h2>{t.detail.surfaceTitle}</h2><p>{t.detail.surfaceNote}</p></div><InteractiveWorld compact /></section>
     <section className="process-section"><div><p className="eyebrow">{t.detail.processEyebrow}</p><h2>{t.detail.processTitle}</h2></div><div className="process-copy"><p>{t.detail.processBody1}</p><p>{t.detail.processBody2}</p></div></section>
     <section className="studies-section"><h2>{t.detail.studiesTitle}</h2><div className="study-grid"><article><ArtworkFigure state="dark" /><h3>{t.detail.darkStudy}</h3><p>{t.detail.darkStudyBody}</p></article><article><ArtworkFigure state="light" /><h3>{t.detail.lightStudy}</h3><p>{t.detail.lightStudyBody}</p></article></div></section>
+    <CloseReading />
     <section className="credits-section"><p className="eyebrow">{t.detail.creditsTitle}</p><p>{t.detail.creditsBody}</p></section>
   </main><SiteFooter /></div>;
 }

@@ -116,7 +116,7 @@ export function InteractiveWorld({ compact = false }: { compact?: boolean }) {
 
   useEffect(() => {
     const canvas = canvasRef.current; if (!canvas) return;
-    canvas.dataset.mode = mode; canvas.dataset.playing = String(playing);
+    canvas.dataset['mode'] = mode; canvas.dataset['playing'] = String(playing);
     modeRef.current = mode;
     playingRef.current = playing;
     if (mode !== "interactive") {
@@ -132,8 +132,8 @@ export function InteractiveWorld({ compact = false }: { compact?: boolean }) {
   return (
     <div className={compact ? "world world--compact" : "world"}>
       <div ref={frameRef} className="world__frame" tabIndex={0} aria-label={t.sceneLabel} data-scene-ready={ready}>
-        <img ref={innerRef} className="world__image" src={asset("/assets/inner-world.png")} alt={t.innerAlt} />
-        <img ref={outerRef} className={`world__image ${showOuter ? "is-visible" : "is-hidden"}`} src={asset("/assets/outer-world.png")} alt={t.outerAlt} />
+        <img ref={innerRef} className="world__image" src={asset("assets/inner-world.png")} alt={t.innerAlt} />
+        <img ref={outerRef} className={`world__image ${showOuter ? "is-visible" : "is-hidden"}`} src={asset("assets/outer-world.png")} alt={t.outerAlt} />
         <canvas ref={canvasRef} className={`world__canvas ${mode === "interactive" && ready && !reduced ? "is-visible" : "is-hidden"}`} aria-hidden="true" />
         {!showInner && <span className="sr-only">{t.outerAlt}</span>}
         {failed && <Button variant="scene" onClick={() => window.location.reload()} className="world__retry">{t.controls.retry}</Button>}

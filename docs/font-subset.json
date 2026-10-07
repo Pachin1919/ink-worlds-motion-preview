@@ -1,8 +1,8 @@
 {
   "family": "Noto Sans SC:wght@100..900",
-  "characters": 433,
+  "characters": 467,
   "path": "assets/fonts/noto-sans-sc-exhibition.woff2",
-  "bytes": 115668,
-  "sha256": "f6e8da7a9aff35beb194e90429f75055bd7e2a46d3f03e104692f3c07ede53aa",
+  "bytes": 126252,
+  "sha256": "61508c461ef24f2db1c1d473a651c2c48957dfe6a8fdf22bee7f811eb83584e6",
   "source": "Google Fonts CSS2 text subset, self-hosted; regenerate when copy changes."
 }

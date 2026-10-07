@@ -1,0 +1,71 @@
+{
+  "assets": [
+    {
+      "path": "src/assets/basalt-stair-study.jpg",
+      "size": 194295,
+      "sha256": "37f55eb2bf45d8285b5d7901b8776f716d98f4e28bd41a7c1b7a4cad33af5435",
+      "chunk_paths": [
+        ".export/art-round2/chunks/basalt-stair-study-001.txt",
+        ".export/art-round2/chunks/basalt-stair-study-002.txt",
+        ".export/art-round2/chunks/basalt-stair-study-003.txt",
+        ".export/art-round2/chunks/basalt-stair-study-004.txt",
+        ".export/art-round2/chunks/basalt-stair-study-005.txt",
+        ".export/art-round2/chunks/basalt-stair-study-006.txt",
+        ".export/art-round2/chunks/basalt-stair-study-007.txt",
+        ".export/art-round2/chunks/basalt-stair-study-008.txt",
+        ".export/art-round2/chunks/basalt-stair-study-009.txt"
+      ]
+    },
+    {
+      "path": "src/assets/inner-gate-detail.webp",
+      "size": 56942,
+      "sha256": "b4dbea239feddfc174c4121da9823b9ba3361d36b4773ac48a15efaf8b72ef0a",
+      "chunk_paths": [
+        ".export/art-round2/chunks/inner-gate-detail-001.txt",
+        ".export/art-round2/chunks/inner-gate-detail-002.txt",
+        ".export/art-round2/chunks/inner-gate-detail-003.txt"
+      ]
+    },
+    {
+      "path": "src/assets/mineral-inlet-study.jpg",
+      "size": 236195,
+      "sha256": "0fc7115c0076a77f47b4552a589a4b91539c90439d4bab81d9a66f96e334a21a",
+      "chunk_paths": [
+        ".export/art-round2/chunks/mineral-inlet-study-001.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-002.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-003.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-004.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-005.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-006.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-007.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-008.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-009.txt",
+        ".export/art-round2/chunks/mineral-inlet-study-010.txt"
+      ]
+    },
+    {
+      "path": "src/assets/outer-gate-detail.webp",
+      "size": 35628,
+      "sha256": "5590e08b195907932cbff7372341e2761dafc8a3c1f418aecc4cadb65284b4fa",
+      "chunk_paths": [
+        ".export/art-round2/chunks/outer-gate-detail-001.txt",
+        ".export/art-round2/chunks/outer-gate-detail-002.txt"
+      ]
+    },
+    {
+      "path": "src/assets/stone-reeds-study.jpg",
+      "size": 176170,
+      "sha256": "6dbf3a9f6209369c0922c8cd4a2c61690668e71b0e418f711491a1bc014eb9d2",
+      "chunk_paths": [
+        ".export/art-round2/chunks/stone-reeds-study-001.txt",
+        ".export/art-round2/chunks/stone-reeds-study-002.txt",
+        ".export/art-round2/chunks/stone-reeds-study-003.txt",
+        ".export/art-round2/chunks/stone-reeds-study-004.txt",
+        ".export/art-round2/chunks/stone-reeds-study-005.txt",
+        ".export/art-round2/chunks/stone-reeds-study-006.txt",
+        ".export/art-round2/chunks/stone-reeds-study-007.txt",
+        ".export/art-round2/chunks/stone-reeds-study-008.txt"
+      ]
+    }
+  ]
+}

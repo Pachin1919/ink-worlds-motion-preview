@@ -3,6 +3,17 @@ export type Language = "en" | "zh";
 export const copy = {
   en: {
     languageName: "中文",
+    studio: {
+      label: "Studio studies", title: "Stone, suspended. Light, settled.",
+      note: "Three AI-generated studio studies extend the exhibition’s visual vocabulary. They are separate explorations, not additional original works by PACHIN.",
+      stair: "Basalt Stair", stairCaption: "A broken ascent held above the mist.", stairAlt: "Ink-blue basalt steps climb a suspended stone spine above pale mist",
+      inlet: "Mineral Inlet", inletCaption: "Pale shore, floating stone, a quiet horizon.", inletAlt: "A curved pale mineral shore surrounds still water beneath sparse floating rocks",
+      reeds: "Stone and Reeds", reedsCaption: "Weather gathers at the edge of stone.", reedsAlt: "Weathered stone and slender reeds face a distant suspended ruin in mist",
+      browse: "Explore the studio studies", reading: "Close reading", gate: "The ruin stays in place.",
+      gateBody: "Matched details from the original paintings: the same stone, the same crop, two states of light.",
+      darkDetail: "Original detail · shadow", lightDetail: "Original detail · light",
+      darkAlt: "Close crop of the original ruined gate and cliff in blue shadow", lightAlt: "Matching close crop of the original gate and cliff in warm light",
+    },
     skip: "Skip to exhibition content",
     nav: { home: "Exhibition", works: "Works", about: "About" },
     maker: "An interactive work by PACHIN",
@@ -82,6 +93,17 @@ export const copy = {
   },
   zh: {
     languageName: "EN",
+    studio: {
+      label: "创作习作", title: "石悬于空，光落于岸。",
+      note: "三幅由 AI 生成的创作习作延展了展览的视觉语言。它们是独立探索，并非 PACHIN 新增的原作。",
+      stair: "玄武岩阶", stairCaption: "断续的阶梯，悬于雾上。", stairAlt: "墨蓝色玄武岩阶沿悬浮岩脊攀升，下方是浅色云雾",
+      inlet: "矿色水湾", inletCaption: "浅岸、浮石与安静的地平线。", inletAlt: "浅色矿岩岸线环绕静水，远处零星岩石悬浮",
+      reeds: "石与苇", reedsCaption: "风雨的痕迹，停留在石缘。", reedsAlt: "风化岩石与纤细芦苇面向雾中远处的悬浮残筑",
+      browse: "浏览创作习作", reading: "细读画面", gate: "残筑的位置未曾改变。",
+      gateBody: "取自原始绘画的对应细节：同一块石、同一处裁切，两种光线状态。",
+      darkDetail: "原作局部 · 阴影", lightDetail: "原作局部 · 日光",
+      darkAlt: "原作残破石门与悬崖的墨蓝阴影局部", lightAlt: "原作同一石门与悬崖在温暖日光下的对应局部",
+    },
     skip: "跳至展览内容",
     nav: { home: "展览", works: "作品", about: "关于" },
     maker: "PACHIN 互动作品",
