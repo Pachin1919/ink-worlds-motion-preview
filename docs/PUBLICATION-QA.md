@@ -22,4 +22,4 @@ Independent Codex verification against the actual GitHub Actions production buil
 
 ## Limits
 
-Chromium automation and viewport emulation; physical touch devices, other browser engines, and formal screen-reader acceptance were not repeated. Historical Lovable lifecycle/reduced-motion evidence is preserved separately in docs/lovable/QA.md. Public deployment is verified separately after promotion to main.
+Chromium automation and viewport emulation; physical touch devices, other browser engines, and formal screen-reader acceptance were not repeated. Earlier editor-preview QA is archived locally; it is not evidence for this published build. Public deployment is verified separately after promotion to main.

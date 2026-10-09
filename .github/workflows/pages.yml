@@ -1,7 +1,9 @@
 name: Build and deploy demo
 on:
   push:
-    branches: [main, lovable-refinement-20261007]
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

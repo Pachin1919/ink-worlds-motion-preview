@@ -5,7 +5,7 @@ export const copy = {
     languageName: "中文",
     studio: {
       label: "Studio studies", title: "Stone, suspended. Light, settled.",
-      note: "Three AI-generated studio studies extend the exhibition’s visual vocabulary. They are separate explorations, not additional original works by PACHIN.",
+      note: "Three companion studies in stone, water and weather. Separate explorations alongside the original pair of paintings.",
       stair: "Basalt Stair", stairCaption: "A broken ascent held above the mist.", stairAlt: "Ink-blue basalt steps climb a suspended stone spine above pale mist",
       inlet: "Mineral Inlet", inletCaption: "Pale shore, floating stone, a quiet horizon.", inletAlt: "A curved pale mineral shore surrounds still water beneath sparse floating rocks",
       reeds: "Stone and Reeds", reedsCaption: "Weather gathers at the edge of stone.", reedsAlt: "Weathered stone and slender reeds face a distant suspended ruin in mist",
@@ -95,7 +95,7 @@ export const copy = {
     languageName: "EN",
     studio: {
       label: "创作习作", title: "石悬于空，光落于岸。",
-      note: "三幅由 AI 生成的创作习作延展了展览的视觉语言。它们是独立探索，并非 PACHIN 新增的原作。",
+      note: "石、水与风雨的三组习作。与原来的两张画并置，作为独立的场景探索。",
       stair: "玄武岩阶", stairCaption: "断续的阶梯，悬于雾上。", stairAlt: "墨蓝色玄武岩阶沿悬浮岩脊攀升，下方是浅色云雾",
       inlet: "矿色水湾", inletCaption: "浅岸、浮石与安静的地平线。", inletAlt: "浅色矿岩岸线环绕静水，远处零星岩石悬浮",
       reeds: "石与苇", reedsCaption: "风雨的痕迹，停留在石缘。", reedsAlt: "风化岩石与纤细芦苇面向雾中远处的悬浮残筑",

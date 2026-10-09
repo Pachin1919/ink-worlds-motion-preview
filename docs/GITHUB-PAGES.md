@@ -1,6 +1,6 @@
 # GitHub Pages delivery
 
-Source Lovable revision: 333a7cc622d960c6895cfd70853144f907713f64.
+Source snapshot: 333a7cc622d960c6895cfd70853144f907713f64.
 
 The reviewed React/TanStack route content and interactions are retained. Hosting is adapted to a static Vite browser app; the server wrapper and platform error-reporting transport are excluded. Repository base path is /ink-worlds-motion-preview/. Every known detail route gets a physical index.html for direct entry and refresh.
 

@@ -8,7 +8,7 @@ Implementation revision inspected before writing these delivery documents: `fc0d
 
 ## Asset provenance
 
-The three new studies were created with native image generation in this session, guided by the original paintings' ink/mineral palette and painterly character. They are separate generated compositions, not repainted originals, hero crops, screenshots, stock images, SVG drawings or remote pointers. Prompts specified no characters, dragons, logos or baked-in text. They are labelled as AI-generated studio studies in both languages, not additional original works by PACHIN or claims of exhibition history.
+The three new studies were created with image generation, guided by the original paintings' ink/mineral palette and painterly character. They are separate generated compositions, not repainted originals, hero crops, screenshots, stock images, SVG drawings or remote pointers. Prompts specified no characters, dragons, logos or baked-in text. Visible captions describe companion studies; these provenance notes record the generated origin. They are not additional hand-painted originals by PACHIN or claims of exhibition history.
 
 | Portable file | Final dimensions | Generation direction / distinction |
 | --- | --- | --- |
